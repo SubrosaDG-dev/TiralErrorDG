@@ -1,9 +1,13 @@
-# coding: utf-8
-# author: Yufei.Liu, Calm.Liu@outlook.com | Chenyu.Bao, bcynuaa@163.com
-# date: 2023.05.31
-
-###################################################################################################
-# This file is used to generate mesh for naca0012.
+"""
+ * @ Coding: utf-8
+ * @ Author: Yufei.Liu, Calm.Liu@outlook.com | Chenyu.Bao, bcynuaa@163.com
+ * @ Date: 2023-05-31 21:14:50
+ * @ Copyright: Copyright (c) 2022 - 2023 by SubrosaDG developers. All rights reserved.
+ * SubrosaDG is free software and is distributed under the MIT license.
+ * @ Description: Here're some brief descriptions about this file.
+ * naca0012.jl
+ * This file is used to generate mesh for naca0012.
+ """
 
 import DelimitedFiles;
 import Gmsh: gmsh;
@@ -67,5 +71,3 @@ function main()
 end
 
 main()
-
-###################################################################################################
