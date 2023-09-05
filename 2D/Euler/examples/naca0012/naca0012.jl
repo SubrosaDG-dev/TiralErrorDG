@@ -61,7 +61,7 @@ function generateMesh()
     gmsh.model.addPhysicalGroup(2, [naca0012_plane_surface], -1, "vc-1");
     gmsh.model.mesh.generate(2);
     gmsh.model.mesh.optimize("Netgen");
-    gmsh.write("naca0012.msh");
+    gmsh.write("examples//naca0012//naca0012.msh");
     gmsh.clear();
     gmsh.finalize();
 end
