@@ -15,7 +15,7 @@ import Gmsh: gmsh;
 function generateMesh()
     # Generate the mesh
     # below is prepared for generating mesh
-    naca0012_points::Matrix{Float64} = DelimitedFiles.readdlm("naca0012.dat"; skipstart=1);
+    naca0012_points::Matrix{Float64} = DelimitedFiles.readdlm("examples//naca0012//naca0012.dat"; skipstart=1);
     outer_square_side_length::Float64 = 10.;
     farfield_points::Matrix{Float64} = [
         -outer_square_side_length     -outer_square_side_length      0.;
