@@ -1,0 +1,10 @@
+name = "Euler"
+uuid = "24fc0439-b05d-49d7-babb-71e82642d7d3"
+authors = ["Yufei.Liu <Calm.Liu@outlook.com> | Chenyu.Bao <bcynuaa@163.com>"]
+version = "0.1.0"
+
+[deps]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Gmsh = "705231aa-382f-11e9-3f0c-b7cb4346fdeb"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
