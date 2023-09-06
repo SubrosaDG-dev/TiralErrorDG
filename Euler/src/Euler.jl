@@ -12,4 +12,6 @@ module Euler
     
 greet() = println("Hello, Euler!")
 
+include("Base/ElementType.jl")
+
 end

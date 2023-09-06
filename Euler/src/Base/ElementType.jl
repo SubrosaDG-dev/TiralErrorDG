@@ -8,4 +8,13 @@
  * 
  """
 
-abstract type AbstractElementType{NDIM} end
+abstract type AbstractElementType{NDIMS} end
+
+struct Line <: AbstractElementType{1} end
+struct Tri <: AbstractElementType{2} end
+struct Quad <: AbstractElementType{2} end
+
+struct Tet <: AbstractElementType{3} end
+struct Hex <: AbstractElementType{3} end
+struct Pyr <: AbstractElementType{3} end
+
