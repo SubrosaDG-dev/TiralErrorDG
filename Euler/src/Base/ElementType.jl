@@ -8,13 +8,16 @@
  * 
  """
 
-abstract type AbstractElementType{NDIMS} end
+abstract type AbstractElementType end
 
-struct Line <: AbstractElementType{1} end
-struct Tri <: AbstractElementType{2} end
-struct Quad <: AbstractElementType{2} end
+abstract type AdjacencyElement <: AbstractElementType end
+abstract type IntegralElement <: AbstractElementType end
 
-struct Tet <: AbstractElementType{3} end
-struct Hex <: AbstractElementType{3} end
-struct Pyr <: AbstractElementType{3} end
+struct Line2D <: AdjacencyElement end
 
+struct Tri2D <: IntegralElement end
+struct Quad2D <: IntegralElement end
+
+const kLine2D::Line2D = Line2D()
+const kTri2D::Tri2D = Tri2D()
+const kQuad2D::Quad2D = Quad2D()
