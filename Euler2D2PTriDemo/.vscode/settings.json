@@ -1,0 +1,18 @@
+{
+    "autoHeader": {
+        "format": {
+            "startWith": "",
+            "middleWith": "",
+            "endWith": "",
+            "headerPrefix": "#",
+        },
+        "header": {
+            "Author": "Yufei Liu | Chenyu Bao",
+            "Create Time": {
+                "type": "createTime",
+                "format": "YYYY-MM-DD HH:mm:ss",
+            },
+            "Description": "a trial fof 2D DG method with order 2",
+        }
+    }
+}
